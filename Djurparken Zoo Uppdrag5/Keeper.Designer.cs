@@ -64,6 +64,7 @@
             btnRegister.TabIndex = 2;
             btnRegister.Text = "Registrera nya djur";
             btnRegister.UseVisualStyleBackColor = false;
+            btnRegister.Click += btnTempReg;
             // 
             // btnFeed
             // 
@@ -74,6 +75,7 @@
             btnFeed.TabIndex = 3;
             btnFeed.Text = "Mata djuren";
             btnFeed.UseVisualStyleBackColor = false;
+            btnFeed.Click += btnTenpFeed;
             // 
             // btnHandle
             // 
@@ -84,6 +86,7 @@
             btnHandle.TabIndex = 4;
             btnHandle.Text = "Hantera djuren";
             btnHandle.UseVisualStyleBackColor = false;
+            btnHandle.Click += btnTempHandle;
             // 
             // Keeper
             // 

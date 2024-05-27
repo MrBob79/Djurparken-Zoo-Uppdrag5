@@ -16,5 +16,20 @@ namespace Djurparken_Zoo_Uppdrag5
         {
             InitializeComponent();
         }
+
+        private void btnTempReg(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTenpFeed(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTempHandle(object sender, EventArgs e)
+        {
+
+        }
     }
 }
